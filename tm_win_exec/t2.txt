@@ -1,0 +1,213 @@
+Input list of rules:
+Executing...
+ STEP[1]
+Head position:  .
+Registers    : L|||#|||L
+Current state: 0
+Rule number 1 matched (|q0->Lq1R)
+
+ STEP[2]
+Head position:   .
+Registers    : LL||#|||L
+Current state: 1
+Rule number 2 matched (|q1->|q1R)
+
+ STEP[3]
+Head position:    .
+Registers    : LL||#|||L
+Current state: 1
+Rule number 2 matched (|q1->|q1R)
+
+ STEP[4]
+Head position:     .
+Registers    : LL||#|||L
+Current state: 1
+Rule number 3 matched (#q1->#q1R)
+
+ STEP[5]
+Head position:      .
+Registers    : LL||#|||L
+Current state: 1
+Rule number 2 matched (|q1->|q1R)
+
+ STEP[6]
+Head position:       .
+Registers    : LL||#|||L
+Current state: 1
+Rule number 2 matched (|q1->|q1R)
+
+ STEP[7]
+Head position:        .
+Registers    : LL||#|||L
+Current state: 1
+Rule number 2 matched (|q1->|q1R)
+
+ STEP[8]
+Head position:         .
+Registers    : LL||#|||L
+Current state: 1
+Rule number 4 matched (Lq1->Lq2L)
+
+ STEP[9]
+Head position:        .
+Registers    : LL||#|||L
+Current state: 2
+Rule number 5 matched (|q2->Lq3L)
+
+ STEP[10]
+Head position:       .
+Registers    : LL||#||LL
+Current state: 3
+Rule number 6 matched (|q3->|q3L)
+
+ STEP[11]
+Head position:      .
+Registers    : LL||#||LL
+Current state: 3
+Rule number 6 matched (|q3->|q3L)
+
+ STEP[12]
+Head position:     .
+Registers    : LL||#||LL
+Current state: 3
+Rule number 7 matched (#q3->#q3L)
+
+ STEP[13]
+Head position:    .
+Registers    : LL||#||LL
+Current state: 3
+Rule number 6 matched (|q3->|q3L)
+
+ STEP[14]
+Head position:   .
+Registers    : LL||#||LL
+Current state: 3
+Rule number 6 matched (|q3->|q3L)
+
+ STEP[15]
+Head position:  .
+Registers    : LL||#||LL
+Current state: 3
+Rule number 8 matched (Lq3->Lq0R)
+
+ STEP[16]
+Head position:   .
+Registers    : LL||#||LL
+Current state: 0
+Rule number 1 matched (|q0->Lq1R)
+
+ STEP[17]
+Head position:    .
+Registers    : LLL|#||LL
+Current state: 1
+Rule number 2 matched (|q1->|q1R)
+
+ STEP[18]
+Head position:     .
+Registers    : LLL|#||LL
+Current state: 1
+Rule number 3 matched (#q1->#q1R)
+
+ STEP[19]
+Head position:      .
+Registers    : LLL|#||LL
+Current state: 1
+Rule number 2 matched (|q1->|q1R)
+
+ STEP[20]
+Head position:       .
+Registers    : LLL|#||LL
+Current state: 1
+Rule number 2 matched (|q1->|q1R)
+
+ STEP[21]
+Head position:        .
+Registers    : LLL|#||LL
+Current state: 1
+Rule number 4 matched (Lq1->Lq2L)
+
+ STEP[22]
+Head position:       .
+Registers    : LLL|#||LL
+Current state: 2
+Rule number 5 matched (|q2->Lq3L)
+
+ STEP[23]
+Head position:      .
+Registers    : LLL|#|LLL
+Current state: 3
+Rule number 6 matched (|q3->|q3L)
+
+ STEP[24]
+Head position:     .
+Registers    : LLL|#|LLL
+Current state: 3
+Rule number 7 matched (#q3->#q3L)
+
+ STEP[25]
+Head position:    .
+Registers    : LLL|#|LLL
+Current state: 3
+Rule number 6 matched (|q3->|q3L)
+
+ STEP[26]
+Head position:   .
+Registers    : LLL|#|LLL
+Current state: 3
+Rule number 8 matched (Lq3->Lq0R)
+
+ STEP[27]
+Head position:    .
+Registers    : LLL|#|LLL
+Current state: 0
+Rule number 1 matched (|q0->Lq1R)
+
+ STEP[28]
+Head position:     .
+Registers    : LLLL#|LLL
+Current state: 1
+Rule number 3 matched (#q1->#q1R)
+
+ STEP[29]
+Head position:      .
+Registers    : LLLL#|LLL
+Current state: 1
+Rule number 2 matched (|q1->|q1R)
+
+ STEP[30]
+Head position:       .
+Registers    : LLLL#|LLL
+Current state: 1
+Rule number 4 matched (Lq1->Lq2L)
+
+ STEP[31]
+Head position:      .
+Registers    : LLLL#|LLL
+Current state: 2
+Rule number 5 matched (|q2->Lq3L)
+
+ STEP[32]
+Head position:     .
+Registers    : LLLL#LLLL
+Current state: 3
+Rule number 7 matched (#q3->#q3L)
+
+ STEP[33]
+Head position:    .
+Registers    : LLLL#LLLL
+Current state: 3
+Rule number 8 matched (Lq3->Lq0R)
+
+ STEP[34]
+Head position:     .
+Registers    : LLLL#LLLL
+Current state: 0
+Rule number 9 matched (#q0->|q4R)
+
+ STEP[35]
+Head position:      .
+Registers    : LLLL|LLLL
+Current state: 4
+Rule number 11 matched (Lq4->Lq*N)
+
+Process ended:  

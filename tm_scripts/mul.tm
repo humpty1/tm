@@ -1,0 +1,23 @@
+//multiply two number
+#q0->Lq1R
+|q1->Lq1R
+Lq1->Lq*
+aq1->|q1R
+|q0->Lq2R
+|q2->|q2R
+#q2->#q3R
+|q3->Lq4R
+|q4->|q4R
+aq4->aq4R
+Lq4->aq5L
+|q5->|q5L
+aq5->aq5L
+Lq5->|q3R
+aq3->aq6L
+|q6->|q6L
+#q6->#q6L
+Lq6->Lq0R
+Lq3->Lq7R
+#q7->Lq7L
+|q7->Lq7L
+Lq7->Lq*

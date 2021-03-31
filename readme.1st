@@ -1,0 +1,56 @@
+
+    ver 1.0.1
+    дописал реадми.
+    поправил параметры ком.строчки в досовской запускалке
+
+
+
+ /tm1 
+   машина Тьюринга    -- Соснев
+    ver 1.0 добавил указание файла ввода и файла вывода
+ /tm_scripts 
+    несколько скриптов
+ /tm_dos_exec 
+   дос запускалка     -- Лавринович
+      	_argv[0]="tm1.exe";
+      	_argv[1]="-b";
+      	_argv[2]="L"; //empty-sybol for MT
+      	_argv[3]="-r";
+      	_argv[4]=arg; //stroka with register for MT
+      	_argv[5]="-f";
+      	_argv[6]=argv[1]; //script
+      	_argv[7]="-o";
+      	_argv[8]="1.txt"; //output file MT
+      	_argv[9]="-v";
+      	_argv[10]=0;
+      	_spawnv(_P_WAIT,"tm1.exe",_argv);
+
+     добавил обработку кода возврата от интерпретатора
+
+
+ /tm_win_exec 
+   виндовс запускалка -- Матвиенко  --- переделать все 
+
+
+                    mp = new ProcessStartInfo("tь1.exe");
+                    mp.RedirectStandardError = true;
+                    mp.UseShellExecute = false;
+                    mp.Arguments = "-v " + "-b L -r " + reg_key + " -f " + FILE + "";
+
+                    Console.Error.WriteLine(" arguments line '{0}'",  mp.Arguments);
+                    string wrt = "t2.txt";
+                    StreamWriter sw = new StreamWriter(wrt);
+                    Process proc = Process.Start(mp);
+
+
+
+
+  пример интерпретатора машины тьюринга 
+   (используются регулярные выражения для разбора операторов из скрипта
+   см.        using System.Text.RegularExpressions;
+      и 			Regex ex = new Regex("(\\S)q(\\d+)->(\\S)q(\\*|\\d+)([NLR]?)");
+
+   
+   ), 
+   нескольких скриптов,
+   и запуска внешнего процесса из си и сшарпа
